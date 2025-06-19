@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DF2001E52E00B87F007D1EEB /* Regions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF2001E42E00B87F007D1EEB /* Regions.swift */; };
+		DF2001E82E00C1B5007D1EEB /* ExploreService.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF2001E62E00C1B5007D1EEB /* ExploreService.swift */; };
+		DF2001ED2E00C1C1007D1EEB /* DestinationSearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF2001E92E00C1C1007D1EEB /* DestinationSearchView.swift */; };
+		DF2001EE2E00C1C1007D1EEB /* ExploreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF2001EA2E00C1C1007D1EEB /* ExploreView.swift */; };
+		DF2001EF2E00C1C1007D1EEB /* SearchAndFilterBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF2001EB2E00C1C1007D1EEB /* SearchAndFilterBar.swift */; };
+		DF2001F22E00C1D7007D1EEB /* ExploreViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF2001F02E00C1D7007D1EEB /* ExploreViewModel.swift */; };
+		DFA65C442DFF2AB100F5A8F9 /* Listing.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFA65C432DFF2AB100F5A8F9 /* Listing.swift */; };
+		DFA65C462DFF309600F5A8F9 /* DeveloperPreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFA65C452DFF309600F5A8F9 /* DeveloperPreview.swift */; };
 		DFC2DCAD2DFE110A00E082AA /* VoyaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFC2DCAC2DFE110A00E082AA /* VoyaApp.swift */; };
 		DFC2DCAF2DFE110A00E082AA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFC2DCAE2DFE110A00E082AA /* ContentView.swift */; };
 		DFC2DCB12DFE110B00E082AA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DFC2DCB02DFE110B00E082AA /* Assets.xcassets */; };
@@ -14,6 +22,13 @@
 		DFC2DCBE2DFE110B00E082AA /* VoyaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFC2DCBD2DFE110B00E082AA /* VoyaTests.swift */; };
 		DFC2DCC82DFE110B00E082AA /* VoyaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFC2DCC72DFE110B00E082AA /* VoyaUITests.swift */; };
 		DFC2DCCA2DFE110C00E082AA /* VoyaUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFC2DCC92DFE110C00E082AA /* VoyaUITestsLaunchTests.swift */; };
+		DFC2DCE72DFE16B900E082AA /* ListingItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFC2DCE62DFE16B900E082AA /* ListingItemView.swift */; };
+		DFC2DCEB2DFE28CE00E082AA /* ListingDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFC2DCEA2DFE28CE00E082AA /* ListingDetailView.swift */; };
+		DFC2DCEE2DFE2DA500E082AA /* ListingImageCarouselView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFC2DCED2DFE2DA500E082AA /* ListingImageCarouselView.swift */; };
+		DFE3DCD32DFE8CC5007F2E98 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFE3DCD22DFE8CC5007F2E98 /* ProfileView.swift */; };
+		DFE3DCD52DFE99CC007F2E98 /* ProfileOptionRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFE3DCD42DFE99CC007F2E98 /* ProfileOptionRowView.swift */; };
+		DFE3DCD72DFE9AFA007F2E98 /* WishlistsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFE3DCD62DFE9AFA007F2E98 /* WishlistsView.swift */; };
+		DFE3DCD92DFE9CC6007F2E98 /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFE3DCD82DFE9CC6007F2E98 /* MainTabView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,16 +49,31 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		DFC2DCA92DFE110A00E082AA /* Voya.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Voya.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF2001E42E00B87F007D1EEB /* Regions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Regions.swift; sourceTree = "<group>"; };
+		DF2001E62E00C1B5007D1EEB /* ExploreService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExploreService.swift; sourceTree = "<group>"; };
+		DF2001E92E00C1C1007D1EEB /* DestinationSearchView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DestinationSearchView.swift; sourceTree = "<group>"; };
+		DF2001EA2E00C1C1007D1EEB /* ExploreView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExploreView.swift; sourceTree = "<group>"; };
+		DF2001EB2E00C1C1007D1EEB /* SearchAndFilterBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchAndFilterBar.swift; sourceTree = "<group>"; };
+		DF2001F02E00C1D7007D1EEB /* ExploreViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExploreViewModel.swift; sourceTree = "<group>"; };
+		DFA65C432DFF2AB100F5A8F9 /* Listing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Listing.swift; sourceTree = "<group>"; };
+		DFA65C452DFF309600F5A8F9 /* DeveloperPreview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeveloperPreview.swift; sourceTree = "<group>"; };
+		DFC2DCA92DFE110A00E082AA /* Voya.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = Voya.app; path = "/Users/chairaharder/Desktop/Voya/build/Debug-iphoneos/Voya.app"; sourceTree = "<absolute>"; };
 		DFC2DCAC2DFE110A00E082AA /* VoyaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoyaApp.swift; sourceTree = "<group>"; };
 		DFC2DCAE2DFE110A00E082AA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		DFC2DCB02DFE110B00E082AA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DFC2DCB32DFE110B00E082AA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		DFC2DCB92DFE110B00E082AA /* VoyaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VoyaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DFC2DCB92DFE110B00E082AA /* VoyaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = VoyaTests.xctest; path = "/Users/chairaharder/Desktop/Voya/build/Debug-iphoneos/Voya.app/PlugIns/VoyaTests.xctest"; sourceTree = "<absolute>"; };
 		DFC2DCBD2DFE110B00E082AA /* VoyaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoyaTests.swift; sourceTree = "<group>"; };
-		DFC2DCC32DFE110B00E082AA /* VoyaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VoyaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DFC2DCC32DFE110B00E082AA /* VoyaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = VoyaUITests.xctest; path = "/Users/chairaharder/Desktop/Voya/build/Debug-iphoneos/VoyaUITests-Runner.app/PlugIns/VoyaUITests.xctest"; sourceTree = "<absolute>"; };
 		DFC2DCC72DFE110B00E082AA /* VoyaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoyaUITests.swift; sourceTree = "<group>"; };
 		DFC2DCC92DFE110C00E082AA /* VoyaUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoyaUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		DFC2DCE62DFE16B900E082AA /* ListingItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListingItemView.swift; sourceTree = "<group>"; };
+		DFC2DCEA2DFE28CE00E082AA /* ListingDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListingDetailView.swift; sourceTree = "<group>"; };
+		DFC2DCED2DFE2DA500E082AA /* ListingImageCarouselView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListingImageCarouselView.swift; sourceTree = "<group>"; };
+		DFE3DCD22DFE8CC5007F2E98 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		DFE3DCD42DFE99CC007F2E98 /* ProfileOptionRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileOptionRowView.swift; sourceTree = "<group>"; };
+		DFE3DCD62DFE9AFA007F2E98 /* WishlistsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WishlistsView.swift; sourceTree = "<group>"; };
+		DFE3DCD82DFE9CC6007F2E98 /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,33 +101,69 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		DF2001E72E00C1B5007D1EEB /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				DF2001E62E00C1B5007D1EEB /* ExploreService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		DF2001EC2E00C1C1007D1EEB /* View */ = {
+			isa = PBXGroup;
+			children = (
+				DF2001E92E00C1C1007D1EEB /* DestinationSearchView.swift */,
+				DF2001EA2E00C1C1007D1EEB /* ExploreView.swift */,
+				DF2001EB2E00C1C1007D1EEB /* SearchAndFilterBar.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		DF2001F12E00C1D7007D1EEB /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				DF2001F02E00C1D7007D1EEB /* ExploreViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		DFA65C412DFF2A6800F5A8F9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				DFA65C432DFF2AB100F5A8F9 /* Listing.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		DFA65C422DFF2A7000F5A8F9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				DFC2DCE62DFE16B900E082AA /* ListingItemView.swift */,
+				DFC2DCEA2DFE28CE00E082AA /* ListingDetailView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		DFC2DCA02DFE110A00E082AA = {
 			isa = PBXGroup;
 			children = (
 				DFC2DCAB2DFE110A00E082AA /* Voya */,
 				DFC2DCBC2DFE110B00E082AA /* VoyaTests */,
 				DFC2DCC62DFE110B00E082AA /* VoyaUITests */,
-				DFC2DCAA2DFE110A00E082AA /* Products */,
 			);
-			sourceTree = "<group>";
-		};
-		DFC2DCAA2DFE110A00E082AA /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				DFC2DCA92DFE110A00E082AA /* Voya.app */,
-				DFC2DCB92DFE110B00E082AA /* VoyaTests.xctest */,
-				DFC2DCC32DFE110B00E082AA /* VoyaUITests.xctest */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		DFC2DCAB2DFE110A00E082AA /* Voya */ = {
 			isa = PBXGroup;
 			children = (
-				DFC2DCAC2DFE110A00E082AA /* VoyaApp.swift */,
+				DFC2DCDA2DFE120600E082AA /* App */,
+				DFC2DCD92DFE11F400E082AA /* Core */,
+				DFC2DCD82DFE11F200E082AA /* Extensions */,
+				DFC2DCD62DFE11DF00E082AA /* Models */,
 				DFC2DCAE2DFE110A00E082AA /* ContentView.swift */,
 				DFC2DCB02DFE110B00E082AA /* Assets.xcassets */,
 				DFC2DCB22DFE110B00E082AA /* Preview Content */,
+				DFC2DCDC2DFE126B00E082AA /* Utils */,
 			);
 			path = Voya;
 			sourceTree = "<group>";
@@ -125,6 +191,118 @@
 				DFC2DCC92DFE110C00E082AA /* VoyaUITestsLaunchTests.swift */,
 			);
 			path = VoyaUITests;
+			sourceTree = "<group>";
+		};
+		DFC2DCD62DFE11DF00E082AA /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		DFC2DCD82DFE11F200E082AA /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				DFA65C452DFF309600F5A8F9 /* DeveloperPreview.swift */,
+				DF2001E42E00B87F007D1EEB /* Regions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		DFC2DCD92DFE11F400E082AA /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				DFC2DCEC2DFE2D8000E082AA /* Components */,
+				DFC2DCDD2DFE132800E082AA /* Explore */,
+				DFC2DCDE2DFE133200E082AA /* Listings */,
+				DFC2DCDF2DFE133B00E082AA /* MapView */,
+				DFC2DCE02DFE136600E082AA /* Profile */,
+				DFC2DCE32DFE138400E082AA /* Root */,
+				DFC2DCE22DFE137B00E082AA /* TabBar */,
+				DFC2DCE12DFE137200E082AA /* Wishlists */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		DFC2DCDA2DFE120600E082AA /* App */ = {
+			isa = PBXGroup;
+			children = (
+				DFC2DCAC2DFE110A00E082AA /* VoyaApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		DFC2DCDC2DFE126B00E082AA /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		DFC2DCDD2DFE132800E082AA /* Explore */ = {
+			isa = PBXGroup;
+			children = (
+				DF2001E72E00C1B5007D1EEB /* Service */,
+				DF2001EC2E00C1C1007D1EEB /* View */,
+				DF2001F12E00C1D7007D1EEB /* ViewModel */,
+			);
+			path = Explore;
+			sourceTree = "<group>";
+		};
+		DFC2DCDE2DFE133200E082AA /* Listings */ = {
+			isa = PBXGroup;
+			children = (
+				DFA65C412DFF2A6800F5A8F9 /* Model */,
+				DFA65C422DFF2A7000F5A8F9 /* View */,
+			);
+			path = Listings;
+			sourceTree = "<group>";
+		};
+		DFC2DCDF2DFE133B00E082AA /* MapView */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = MapView;
+			sourceTree = "<group>";
+		};
+		DFC2DCE02DFE136600E082AA /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				DFE3DCD22DFE8CC5007F2E98 /* ProfileView.swift */,
+				DFE3DCD42DFE99CC007F2E98 /* ProfileOptionRowView.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		DFC2DCE12DFE137200E082AA /* Wishlists */ = {
+			isa = PBXGroup;
+			children = (
+				DFE3DCD62DFE9AFA007F2E98 /* WishlistsView.swift */,
+			);
+			path = Wishlists;
+			sourceTree = "<group>";
+		};
+		DFC2DCE22DFE137B00E082AA /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				DFE3DCD82DFE9CC6007F2E98 /* MainTabView.swift */,
+			);
+			path = TabBar;
+			sourceTree = "<group>";
+		};
+		DFC2DCE32DFE138400E082AA /* Root */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Root;
+			sourceTree = "<group>";
+		};
+		DFC2DCEC2DFE2D8000E082AA /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				DFC2DCED2DFE2DA500E082AA /* ListingImageCarouselView.swift */,
+			);
+			path = Components;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -215,7 +393,11 @@
 				Base,
 			);
 			mainGroup = DFC2DCA02DFE110A00E082AA;
-			productRefGroup = DFC2DCAA2DFE110A00E082AA /* Products */;
+			packageReferences = (
+				DF2001F32E00D399007D1EEB /* XCRemoteSwiftPackageReference "swift-algorithms" */,
+				DF2001F42E00D47E007D1EEB /* XCRemoteSwiftPackageReference "fuse-swift" */,
+			);
+			productRefGroup = DFC2DCA02DFE110A00E082AA;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -257,8 +439,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DFC2DCEE2DFE2DA500E082AA /* ListingImageCarouselView.swift in Sources */,
+				DFE3DCD32DFE8CC5007F2E98 /* ProfileView.swift in Sources */,
+				DFE3DCD52DFE99CC007F2E98 /* ProfileOptionRowView.swift in Sources */,
 				DFC2DCAF2DFE110A00E082AA /* ContentView.swift in Sources */,
+				DFC2DCE72DFE16B900E082AA /* ListingItemView.swift in Sources */,
+				DF2001EF2E00C1C1007D1EEB /* SearchAndFilterBar.swift in Sources */,
+				DF2001ED2E00C1C1007D1EEB /* DestinationSearchView.swift in Sources */,
+				DF2001E52E00B87F007D1EEB /* Regions.swift in Sources */,
+				DFE3DCD72DFE9AFA007F2E98 /* WishlistsView.swift in Sources */,
+				DF2001F22E00C1D7007D1EEB /* ExploreViewModel.swift in Sources */,
+				DF2001EE2E00C1C1007D1EEB /* ExploreView.swift in Sources */,
+				DFA65C442DFF2AB100F5A8F9 /* Listing.swift in Sources */,
+				DFC2DCEB2DFE28CE00E082AA /* ListingDetailView.swift in Sources */,
 				DFC2DCAD2DFE110A00E082AA /* VoyaApp.swift in Sources */,
+				DFE3DCD92DFE9CC6007F2E98 /* MainTabView.swift in Sources */,
+				DFA65C462DFF309600F5A8F9 /* DeveloperPreview.swift in Sources */,
+				DF2001E82E00C1B5007D1EEB /* ExploreService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -588,6 +785,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		DF2001F32E00D399007D1EEB /* XCRemoteSwiftPackageReference "swift-algorithms" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/apple/swift-algorithms.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.2.1;
+			};
+		};
+		DF2001F42E00D47E007D1EEB /* XCRemoteSwiftPackageReference "fuse-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/krisk/fuse-swift.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.4.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
 	};
 	rootObject = DFC2DCA12DFE110A00E082AA /* Project object */;
 }
