@@ -1,6 +1,4 @@
-# Wohna (previously Voya)
-
-# Voya
+# Voya (Wohna)
 
 Welcome to **Voya** – an innovative project by [@cyberchai](https://github.com/cyberchai), designed to showcase modern engineering, thoughtful design, and scalable solutions.
 
