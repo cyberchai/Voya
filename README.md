@@ -38,8 +38,4 @@ cd Voya
 ## Contact
 
 Interested in learning more or discussing opportunities?  
-Feel free to reach out via [GitHub](https://github.com/cyberchai), or connect on LinkedIn.
-
----
-
-**Voya** demonstrates a passion for innovation and a commitment to quality — qualities that align with Apple's engineering culture.
+Feel free to reach out via [GitHub](https://github.com/cyberchai), or connect on [Linkedin](https://linkedin.com/in/chaira-harder).
